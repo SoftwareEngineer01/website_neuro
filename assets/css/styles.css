@@ -18,3 +18,9 @@
     color: #000000;
     text-decoration: none;
 }
+
+.a-card2,
+.a-card2:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
