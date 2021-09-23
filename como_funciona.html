@@ -16,6 +16,7 @@
 
   <!-- MY CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 
@@ -31,6 +32,9 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <button type="button" class="btn orange-button btn-lg">REGRESAR A INICIO</button>
+          </li>
           <li class="nav-item active">
             <a class="nav-link" href="#">Blog</a>
           </li>
@@ -53,95 +57,41 @@
     <!-- WRAPPER -->
     <div class="swiper-wrapper main-swiper__wrapper">
       <div class="swiper-slide">
-        <!-- SECTION PREVIEW -->
-        <section class="s-preview dark overflow-hidden">
-          <div class="container-xxl pb-5">
-            <div class="row flex-nowrap d-block d-xl-flex">
-              <div class="col mb-5 mb-xl-0 pr-xl-5">
-                <h1 class="h2 mb-3 text-center text-xl-left">
-                  ¿Buscas resultados
-                  focalizados?
-                </h1>
+        <!-- SECTION COMO FUNCIONA -->
+        <section class="s-services dark">
+          <div class="container-xxl">           
+            <div class="swiper s-services__swiper">
+              <div class="swiper-wrapper mt-4 mb-5 text-center text-xl-left">
+                <div class="swiper-slide">
+                  <h2 class="mt-1 mb-xl-5 text-center">¿CÓMO FUNCIONA?</h2>
+                  <div class="row align-items-center">                   
 
-                <div class="c-video">
-                  <img src="assets/img/preview-video.jpg" alt="preview-video" class="c-video__video">
-                  <!-- <video class="c-video__video" id="preview-video">
-                    <source src="assets/video/preview-video.mp4">
-                    Your browser does not support the video tag.
-                  </video> -->
+                    <div class="col-lg-6">                      
+                     <p>
+                        Permite ver las cosas desde la perspectiva de los consumidores. Ya sea que esté examinando la ubicación del producto en una percha, el diseño de empaque, la pulicidad o la experiencia del usuario.
+                      </p>
+                      <p>
+                        Se revela con precisión lo que llama la atención, lo que influye en el comportamiento de compra y como los consumidores interactuan con su producto. Esta información ayuda a su negocio a centrarse realmente en el cliente.
+                      </p>
+                    </div>
 
-                  <button type="button" class="c-video__play" data-target="#preview-video">
-                    <i class="fas fa-play"></i>
-                  </button>
-                </div>
-              </div>
-
-              <div class="col-xl-6 pl-xl-0">
-                <p class="mb-2 text-center text-xl-left">
-                  Encuéntralos con nosotros a través de los siguientes pilares:
-                </p>
-
-                <div class="s-preview__cards mx-auto">
-                  <div class="swiper s-preview__swiper mt-4">
-                    <div class="swiper-wrapper"></div>
-
-                    <div class="swiper-pagination"></div>
-
-                    <div class="swiper-button-prev s-preview__prev"></div>
-                    <div class="swiper-button-next s-preview__next"></div>
-                  </div>
-
-                  <div class="s-preview__card-out-slider">
-                    <div class="mx-auto">
-                      <div class="row flex-nowrap position-relative z-1 d-block d-md-flex">
-                        <div class="col mb-4 mb-md-0">
-                          <div class="card mx-auto mx-lg-0">
-                            <img src="assets/img/preview-card-1.svg" class="card-img-top" alt="neuromarketing">
-                            <div class="card-body">
-                              <h2 class="card-title">NEUROMARKETING</h2>
-                              <p class="card-text">Para DISCERNIR el comportamiento del cliente en el proceso de compra.</p>
-                              <a href="#" class="btn btn--primary">LEER MÁS</a>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col mb-4 mb-md-0">
-                          <div class="card mx-auto mx-lg-0">
-                            <img src="assets/img/preview-card-2.svg" class="card-img-top" alt="neurociencias">
-                            <div class="card-body">
-                              <h2 class="card-title">NEUROCIENCIAS</h2>
-                              <p class="card-text">Para MENTALIZAR los procesos involucrados en la toma de decisiones de tus usuarios.
-                              </p>
-                              <a href="#" class="btn btn--primary">LEER MÁS</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col">
-                        <div class="card card--actived" id="card-bottom">
-                          <img src="assets/img/preview-card-3.svg" class="card-img-top" alt="laboratorio">
-                          <div class="card-body">
-                            <h2 class="card-title">LABORATORIO</h2>
-                            <p class="card-text">
-                              Para APLICAR la tecnología biométrica especializada en el análisis del consumidor en beneficio de tu empresa.
-                            </p>
-                            <a href="#" class="btn btn--primary">LEER MÁS</a>
-                          </div>
-                        </div>
-                      </div>
+                    <div class="col-lg-6 d-flex mb-3 mb-xl-0 pr-xl-0">
+                      <img src="assets/img/services-1.png" alt="Servicios" class="s-services__main-img">
                     </div>
                   </div>
-                </div>
+                  <div class="text-center mt-5">
+                    <a href="#how-works"><img class="img-responsive" style="width:60px; height: 60px"src="assets/img/icon-next-section.svg" alt=""></a>
+                  </div>
+                </div>               
               </div>
             </div>
           </div>
-        </section>
+        </section>        
       </div>
 
       <div class="swiper-slide">
         <!-- SECTION HOW-WORKS -->
-        <section class="s-how-works dark pb-5">
+        <section class="s-how-works dark pb-5" id="how-works">
           <div class="container-xxl">
             <div class="row text-center text-sm-left">
               <div class="col-lg-6">
